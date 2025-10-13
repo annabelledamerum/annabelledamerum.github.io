@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+<main class="page-wrapper">
+  <nav class="top-nav">
+    {% if site.navigation %}
+      {% for item in site.navigation %}
+        <a href="{{ item.link | relative_url }}">{{ item.name }}</a>
+      {% endfor %}
+    {% endif %}
+  </nav>
+  <article class="page">{{ content }}</article>
+</main>
