@@ -4,8 +4,6 @@ title: "Publications"
 permalink: /publications
 ---
 
-> Badges (DOI, PMCID) can be added later; for now, we link directly.
-
 - **2025** — Dehnavi, M.M., **Damerum, A.**, *et al.* Population genomics of a natural *Cannabis sativa* L. collection from Iran identifies novel genetic loci for flowering time, morphology, sex and chemotyping. *BMC Plant Biology*, 25:80.  
   DOI: https://doi.org/10.1186/s12870-025-06045-4
 
