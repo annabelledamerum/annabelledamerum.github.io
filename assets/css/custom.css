@@ -1,5 +1,5 @@
 :root{
-    --brand-1:#EDC7B7; --brand-2:#EEE2DC; --brand-3:#BAB2B5; --brand-4:#123C69; --brand-5:#AC3B61;
+    --brand-1:#86bbdf; --brand-2:#c4dada; --brand-3:#a2b4b9; --brand-4:#123C69; --brand-5:#000000;
   }
   body{ background: var(--brand-2); margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;}
   .top-nav{ display:flex; gap:1rem; padding:0.75rem 1rem; background:#fff; border-bottom:1px solid var(--brand-3);}
