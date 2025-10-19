@@ -10,5 +10,31 @@ layout: default
       {% endfor %}
     {% endif %}
   </nav>
+
+  <!-- Header that renders site title, tagline, and author links -->
+  <header class="site-header" style="padding:1rem 1rem 0;">
+    <h1 style="margin:.2rem 0;">
+      <a href="{{ '/' | relative_url }}" style="text-decoration:none; color:inherit;">
+        {{ site.title }}
+      </a>
+    </h1>
+    {% if site.tagline %}
+      <p class="site-tagline" style="margin:.2rem 0; opacity:.85;">
+        {{ site.tagline }}
+      </p>
+    {% endif %}
+
+    {% if site.author and site.author.links %}
+      <p class="badges" style="margin:.4rem 0 .2rem;">
+        {% for link in site.author.links %}
+          <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>
+        {% endfor %}
+        {% if site.author.email %}
+          · <a href="mailto:{{ site.author.email }}">Email</a>
+        {% endif %}
+      </p>
+    {% endif %}
+  </header>
+
   <article class="page">{{ content }}</article>
 </main>
