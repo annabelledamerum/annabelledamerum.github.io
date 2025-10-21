@@ -1,0 +1,6 @@
+/* assets/css/main.scss */
+--- 
+# Only front matter fence so Jekyll processes SCSS; no YAML settings needed here
+---
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin }}"; // skin
+@import "minimal-mistakes";                                        // theme

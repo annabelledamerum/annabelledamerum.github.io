@@ -1,7 +1,8 @@
 ---
-layout: page
 title: "Publications"
-permalink: /publications
+permalink: /publications/
+layout: single
+author_profile: true
 ---
 
 - **2025** — Dehnavi, M.M., **Damerum, A.**, *et al.* Population genomics of a natural *Cannabis sativa* L. collection from Iran identifies novel genetic loci for flowering time, morphology, sex and chemotyping. *BMC Plant Biology*, 25:80.  

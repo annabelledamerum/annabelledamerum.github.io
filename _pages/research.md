@@ -1,7 +1,9 @@
 ---
-layout: page
 title: "Research"
-permalink: /research
+permalink: /research/
+layout: single
+author_profile: true
+toc: true
 ---
 
 Below are representative projects. Figures are illustrative—see Publications for details.
