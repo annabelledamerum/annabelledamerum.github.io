@@ -1,7 +1,8 @@
 ---
-layout: page
 title: "CV"
-permalink: /cv
+permalink: /cv/
+layout: single
+author_profile: true
 ---
 
 **Annabelle Damerum, Ph.D.**  

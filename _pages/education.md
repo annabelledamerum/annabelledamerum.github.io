@@ -1,7 +1,9 @@
 ---
-layout: page
 title: "Education"
-permalink: /education
+permalink: /education/
+layout: single
+author_profile: true
+toc: true
 ---
 
 - **PhD, Biological Sciences**, University of Southampton, UK — **2013–2017**  

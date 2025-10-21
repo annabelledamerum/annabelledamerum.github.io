@@ -2,62 +2,61 @@ title: "Annabelle Damerum, PhD"
 tagline: "Bioinformatics • Biostatistics • Microbiome"
 description: "Personal site, CV, publications, and tutorials"
 url: "https://annabelledamerum.github.io"
+baseurl: ""   
+
+# theme: jekyll-theme-minimal
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Plugins supported by GitHub Pages
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+
+paginate: 5
+paginate_path: "/page:num/"
+
+# Theme skin + appearance
+minimal_mistakes_skin: "default"  # try: "air", "aqua", "contrast", "dark", "mint", "sunrise"
+
+# Author sidebar/profile
 author:
-  name: "Annabelle Damerum"
-  email: "annabelle.damerum@me.com"
+  name: "Annabelle Damerum, Ph.D."
+  avatar: "/assets/images/headshot.jpg"  # add an image or remove this line
+  bio: "Bioinformatician focused on microbiome & public health genomics."
+  location: "Los Angeles, CA"
   links:
-    - label: Google Scholar
-      url: https://scholar.google.com/citations?user=XlLENVYAAAAJ&hl=en&oi=ao
-    - label: ORCID
-      url: https://orcid.org/0000-0003-2207-4935
-    - label: GitHub
-      url: https://github.com/annabelledamerum
-    - label: LinkedIn
-      url: https://www.linkedin.com/in/annabelle-damerum/
+    - label: "Google Scholar"
+      icon: "fas fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=XlLENVYAAAAJ&hl=en&oi=ao"
+    - label: "ORCID"
+      icon: "ai ai-orcid"
+      url: "https://orcid.org/0000-0003-2207-4935"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/annabelledamerum"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/annabelle-damerum/"
 
-# Pick ONE of the following theme lines (see Section 4 for options):
-theme: jekyll-theme-minimal       # built-in, zero setup
-# remote_theme: mmistakes/minimal-mistakes  # comment in if you choose Minimal Mistakes later
+# Navigation (top masthead) will come from _data/navigation.yml
 
-# Navigation (works with most themes)
-navigation:
-  - name: "About"
-    link: /about
-  - name: "Education"
-    link: /education
-  - name: "CV"
-    link: /cv
-  - name: "Research"
-    link: /research
-  - name: "Publications"
-    link: /publications
-  - name: "Tutorials"
-    link: /tutorials/
-
-# Collections for Tutorials (pretty URLs)
-collections:
-  tutorials:
-    output: true
-    permalink: /tutorials/:name/
-
-# Defaults for pages/posts
+# Defaults so pages use the theme’s layouts nicely
 defaults:
-  - scope: { path: "" }
+  - scope:
+      path: ""
+      type: pages
     values:
-      layout: page
-  - scope: { path: "tutorials" }
-    values:
-      layout: post
-      nav_exclude: false
+      layout: single
+      author_profile: true
 
-# Minimal custom CSS (your preferred palette)
-# Elegant yet approachable palette you liked:
-#  #EDC7B7 #EEE2DC #BAB2B5 #123C69 #AC3B61
-sass:
-  style: compressed
+# Optional search (Lunr.js built-in)
+search: true
 
-# Plugins: keep empty for default Pages build; see Section 6 for "any plugin"
-plugins: []
-
-# Enable the custom stylesheet
-# (Some themes auto-include /assets/css/style.css; we’ll include ours manually in layouts if needed)
+# Permalinks (good for breadcrumbs and archives)
+permalink: /:categories/:title/
