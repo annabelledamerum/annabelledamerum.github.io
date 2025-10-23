@@ -4,9 +4,9 @@ title: "Annabelle Damerum, Ph.D."
 subtitle: "Bioinformatics • Biostatistics • Microbiome"
 description: "Personal site, CV, publications and tutorials"
 header:
-  overlay_image: /assets/images/hero.jpg        # put a wide image here (e.g., 1800×800)
+  overlay_image: /assets/images/header_image.jpg        # put a wide image here (e.g., 1800×800)S
   overlay_filter: 0.25
-  caption: "Photo credit: your credit here"
+  caption: ""
   actions:
     - label: "Research"
       url: "/research/"
@@ -21,28 +21,28 @@ excerpt: >
 intro:
   - excerpt: "**Current focus:** wastewater pathogen surveillance, women’s health microbiome, and scalable Nextflow pipelines."
 feature_row:
-  - image_path: /assets/images/feature-research.jpg
+  - image_path: /assets/images/research.png
     alt: "Research projects"
     title: "Research"
     url: "/research/"
-    excerpt: "Project pages with figures, methods, and results."
-  - image_path: /assets/images/feature-publications.jpg
+    excerpt: "Research project highlights."
+  - image_path: /assets/images/publications.png
     alt: "Publications"
     title: "Publications"
     url: "/publications/"
-    excerpt: "Peer-reviewed work with DOI/PMCID links."
-  - image_path: /assets/images/feature-tutorials.jpg
+    excerpt: "Peer-reviewed work with DOI links."
+  - image_path: /assets/images/tutorials.png
     alt: "Tutorials"
     title: "Tutorials"
     url: "/tutorials/"
     excerpt: "Step-by-step guides for genomics, stats, and ML."
 feature_row2:
-  - image_path: /assets/images/feature-cv.jpg
+  - image_path: /assets/images/cv.png
     alt: "Curriculum Vitae"
     title: "CV"
     url: "/cv/"
     excerpt: "Experience, skills, and selected talks."
-  - image_path: /assets/images/feature-about.jpg
+  - image_path: /assets/images/about.png
     alt: "About"
     title: "About"
     url: "/about/"
