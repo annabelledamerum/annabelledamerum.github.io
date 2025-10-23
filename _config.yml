@@ -28,7 +28,7 @@ collections:
     permalink: /:path/
 
 # Theme skin + appearance
-minimal_mistakes_skin: "sunrise"  # try: "air", "aqua", "contrast", "dark", "mint", "default"
+minimal_mistakes_skin: "contrast" # try: "air", "aqua", "dark", "mint", "default" "sunrise" 
 
 # Author sidebar/profile
 author:
