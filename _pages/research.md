@@ -6,7 +6,7 @@ author_profile: true
 toc: true
 ---
 
-Below are representative projects. Figures are illustrative—see Publications for details.
+Below are representative projects, see Publications for details.
 
 ### 1) Wastewater pathogen surveillance platforms
 Reproducible pipelines for bacterial/viral/protozoan pathogen detection from municipal wastewater: whole-metagenome shotgun for multi-kingdom profiling, hybrid probe capture for low-abundance viruses, tiled and targeted amplicon sequencing for variant tracking, and clinical–wastewater comparative genomics for epidemiology.

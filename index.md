@@ -4,7 +4,7 @@ title: "Annabelle Damerum, Ph.D."
 subtitle: "Bioinformatics • Biostatistics • Microbiome"
 description: "Personal site, CV, publications and tutorials"
 header:
-  overlay_image: /assets/images/header_image.jpg        # put a wide image here (e.g., 1800×800)S
+  overlay_image: /assets/images/header_image2.png        # put a wide image here (e.g., 1800×800)
   overlay_filter: 0.25
   caption: ""
   actions:

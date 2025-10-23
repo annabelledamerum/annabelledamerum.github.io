@@ -6,7 +6,6 @@ author_profile: true
 ---
 
 **Annabelle Damerum, Ph.D.**  
-📍 Aliso Viejo, CA | 📞 (+1) 530-400-8929 | ✉️ annabelle.damerum@me.com
 
 **Download PDF:** [Annabelle_Damerum_CV.pdf](/assets/cv/Annabelle_Damerum_CV.pdf)
 
